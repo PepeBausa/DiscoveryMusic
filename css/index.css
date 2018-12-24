@@ -1,0 +1,52 @@
+#Contenido{
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding:0;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+}
+#ImgCarousel{
+  width:100%;
+  height:100%;
+}
+#Demo{
+  position: relative;
+  width:100%;
+  height:90%;
+}
+#ButtonAside{
+width: 200px;
+text-align: center;
+background-color: #9e6a4d;
+border-color: #9e6a4d;
+}
+#ImgLogo{
+  border-radius:100px;
+  width:150px;
+  height:150px;
+}
+#Fila{
+  position:absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 1%;
+}
+#Fila2{
+  position:fixed;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  text-align: Left;
+}
+#FilaLog{
+  margin-top: 1%;
+}
