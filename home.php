@@ -33,7 +33,7 @@
           }
       });
   }
-  $(function(){
+  (function(){
     $('a#logout').click(function(){
         if(confirm('Are you sure to logout?')) {
             return true;
@@ -44,9 +44,12 @@
   $(document).ready(function() {
       mostrarVideos();
   });
+  function CloseWindow() {
+  return "Write something clever here...";
+  }
 </script>
 </head>
-  <body>
+  <body onbeforeunload="return CloseWindow()">
     <div class="container-fluid" id="Contenido">
         <?php require_once('navbar.php'); ?>
         <?php

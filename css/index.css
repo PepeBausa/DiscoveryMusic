@@ -39,14 +39,10 @@ border-color: #9e6a4d;
   text-align: center;
   padding: 1%;
 }
-#Fila2{
+#FilaLog{
   position:fixed;
-  bottom: 0%;
+  bottom: 0;
   left: 0;
   right: 0;
-  background-color: black;
   text-align: Left;
-}
-#FilaLog{
-  margin-top: 1%;
 }

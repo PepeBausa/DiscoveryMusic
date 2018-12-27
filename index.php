@@ -25,10 +25,10 @@
           <img src="resources/banner.png" alt="Banner" id="ImgCarousel">
         </div>
         <div class="carousel-item">
-          <img src="resources/music.png" alt="Music" id="ImgCarousel">
+          <img src="resources/banner1.png" alt="Banner" id="ImgCarousel">
         </div>
         <div class="carousel-item">
-          <img src="resources/guitar.png" alt="Guitar" id="ImgCarousel">
+          <img src="resources/banner2.png" alt="Banner" id="ImgCarousel">
         </div>
       </div>
       <!-- Logo -->
@@ -46,9 +46,9 @@
         <img id="ImgLogo" src="resources/icon.png" class="img-circle" alt="Logo">
       </div>
     </div>
-    <div class="row" id="Fila2">
+    <div class="row" id="FilaLog">
       <div class="col-12" id="FilaLog">
-        <p><a href="login.php"><button name="asidebutton" value="Subir" id="ButtonAside" class="btn btn-success">Login</button></a> Si no estas registrado <a href="register.php">pincha aqui</a></p>
+        <p style="text-color:white"><a href="login.php"><button name="asidebutton" value="Subir" id="ButtonAside" class="btn btn-success">Login</button></a> Si no estas registrado <a href="register.php">pincha aqui</a></p>
       </div>
     </div>
   </div>

@@ -16,19 +16,11 @@
       <!-- Indicators -->
       <ul class="carousel-indicators">
         <li data-target="#Demo" data-slide-to="0" class="active"></li>
-        <li data-target="#Demo" data-slide-to="1"></li>
-        <li data-target="#Demo" data-slide-to="2"></li>
       </ul>
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="resources/banner.png" alt="Banner" id="ImgCarousel">
-        </div>
-        <div class="carousel-item">
-          <img src="resources/music.png" alt="Music" id="ImgCarousel">
-        </div>
-        <div class="carousel-item">
-          <img src="resources/guitar.png" alt="Guitar" id="ImgCarousel">
         </div>
       </div>
       <!-- Logo -->
