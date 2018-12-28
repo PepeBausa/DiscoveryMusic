@@ -92,4 +92,5 @@
 #video{
   width: 360px;
   height: 180px;
+  padding: auto;
 }

@@ -25,7 +25,7 @@
                   var html = '';
                   for (var i = 0; i < respuesta.length; i++) {
                       if (respuesta[i] != undefined) {
-                          html += '<div><video id="video" controls><source src="'+respuesta[i]["archivo"]+'" type="video/mp4" allow/><source src="'+respuesta[i]+'" type="video/ogg" allow/></video></div>';
+                          html += '<div class="row"><div class="col-12"><video id="video" controls><source src="'+respuesta[i]["archivo"]+'" type="video/mp4" allow/><source src="'+respuesta[i]["archivo"]+'" type="video/avi" allow/></video><hr/><p style="text-align:center">Titulo: '+respuesta[i]["titulo"]+'<br/> Artista: '+respuesta[i]["artista"]+'</p></div></div>';
                       }
                   }
                   $("#mostrar_videos").html(html);
@@ -44,9 +44,6 @@
   $(document).ready(function() {
       mostrarVideos();
   });
-  function CloseWindow() {
-  return "Write something clever here...";
-  }
 </script>
 </head>
   <body onbeforeunload="return CloseWindow()">

@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (     ($_FILES["archivo"]["type"] == "video/mp4")
-      || ($_FILES["archivo"]["type"] == "video/ogg")
+      || ($_FILES["archivo"]["type"] == "video/avi")
       ){
     $archivo = $_FILES['archivo'];
     $extension = pathinfo($archivo['name'], PATHINFO_EXTENSION);
