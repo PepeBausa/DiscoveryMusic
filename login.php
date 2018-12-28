@@ -13,30 +13,8 @@
 <body>
   <div class="container-fluid" id="Contenido">
     <div class="row" id="Fila">
-      <div class="col-12" id="ColCarusel">
-        <div id="demo" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-          </ul>
-          <!-- The slideshow -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="resources/banner.png" alt="Banner" id="ImgCarousel">
-            </div>
-            <div class="carousel-item">
-              <img src="resources/banner.png" alt="Banner" id="ImgCarousel">
-            </div>
-          </div>
-          <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-        </div>
+      <div class="col-9 offset-3" id="Background">
+        <img id="ImgCarousel" src="resources/banner1.png" alt="background">
       </div>
       <div class="col-3" id="CentrarFormulario">
         <div class="row" id="Centrar">
@@ -52,7 +30,7 @@
             <br>
   					<input id="password" type="password" name="password" value="" class="form-control" placeholder="********" required >
   					<br>
-  					<button class="btn btn-lg btn-success btn-block signup-btn" id="ButtonAside" type="submit">Sign Up</button>
+  					<button class="btn btn-lg btn-success btn-block signup-btn" id="Button" type="submit">Sign Up</button>
   				</form>
         </div>
       </div>
