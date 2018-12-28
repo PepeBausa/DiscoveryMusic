@@ -15,10 +15,9 @@
   width:100%;
   height:100%;
 }
-#Demo{
-  position: relative;
+#Background{
   width:100%;
-  height:90%;
+  height:100%;
 }
 #ButtonAside{
 width: 200px;
@@ -31,18 +30,22 @@ border-color: #9e6a4d;
   width:150px;
   height:150px;
 }
-#Fila{
-  position:absolute;
+#FilaTop{
+  position:fixed;
   top:0;
   left: 0;
   right: 0;
   text-align: center;
-  padding: 1%;
+  vertical-align:  middle;
+  /*padding-top: 2%;*/
 }
-#FilaLog{
+#FilaBot{
   position:fixed;
   bottom: 0;
   left: 0;
   right: 0;
   text-align: Left;
+}
+p{
+  color: white;
 }

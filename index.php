@@ -12,43 +12,19 @@
 </head>
 <body>
   <div class="container-fluid" id="Contenido">
-    <div id="Demo" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#Demo" data-slide-to="0" class="active"></li>
-        <li data-target="#Demo" data-slide-to="1"></li>
-        <li data-target="#Demo" data-slide-to="2"></li>
-      </ul>
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="resources/banner.png" alt="Banner" id="ImgCarousel">
-        </div>
-        <div class="carousel-item">
-          <img src="resources/banner1.png" alt="Banner" id="ImgCarousel">
-        </div>
-        <div class="carousel-item">
-          <img src="resources/banner2.png" alt="Banner" id="ImgCarousel">
-        </div>
-      </div>
-      <!-- Logo -->
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#Demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#Demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
+    <div id="Background">
+      <img id="ImgCarousel" src="resources/banner.png" alt="background">
     </div>
-    <!-- Botones Login y Registro -->
-    <div class="row" id="Fila">
+    <!-- Login y Registro -->
+    <div class="row" id="FilaTop">
       <div class="col-2">
         <img id="ImgLogo" src="resources/icon.png" class="img-circle" alt="Logo">
       </div>
     </div>
-    <div class="row" id="FilaLog">
-      <div class="col-12" id="FilaLog">
-        <p style="text-color:white"><a href="login.php"><button name="asidebutton" value="Subir" id="ButtonAside" class="btn btn-success">Login</button></a> Si no estas registrado <a href="register.php">pincha aqui</a></p>
+    <!-- Login y Registro -->
+    <div class="row" id="FilaBot">
+      <div class="col-2" id="FilaBot">
+        <p><a href="login.php"><button name="asidebutton" value="Subir" id="ButtonAside" class="btn btn-success">Login</button></a> <br/>Para registrarte <a href="register.php">pincha aqui</a></p>
       </div>
     </div>
   </div>
