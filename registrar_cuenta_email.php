@@ -111,7 +111,7 @@ $mensaje = '
                                              <p style="color:#000000; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif; line-height:22px ">Nos complace darte la bienvenida a <strong>DiscoveryMusic</strong> la Web donde compartir tus nuevas Covers y darte a conocer. <br />
                                                 <br />
                                                 <br />
-                                                Para confirmar tu Suscripción pulsa el siguiente botón y empieza a Disfrutar de la música.
+                                                Para confirmar tu Suscripcion pulsa el siguiente boton y empieza a Disfrutar de la musica.
                                                 <br />
                                                 <br />
                                              </p>
@@ -121,7 +121,7 @@ $mensaje = '
                                                       <td align="center">
                                                          <table border="0" cellpadding="0" cellspacing="0" style="Margin:0 auto;">
                                                             <tr>
-                                                               <td width="250" height="60" align="center" bgcolor="#1f3ca6" style="-moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;"><a href="http://musicdiscovery.ddns.net/confirmacion.php'.$urlinfo.'" style="width:250; display:block; text-decoration:none; border:0; text-align:center; font-weight:bold;font-size:18px; font-family: Arial, sans-serif; color: #ffffff" class="button_link">Confirmar Suscripción<img src="https://gallery.mailchimp.com/fdcaf86ecc5056741eb5cbc18/images/582dc751-b0fc-4769-ad74-35932c7594dd.png" width="32" height="17" style="padding-top:5px" alt="" border="0"/></a></td>
+                                                               <td width="250" height="60" align="center" bgcolor="#1f3ca6" style="-moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;"><a href="http://musicdiscovery.ddns.net/confirmacion.php'.$urlinfo.'" style="width:250; display:block; text-decoration:none; border:0; text-align:center; font-weight:bold;font-size:18px; font-family: Arial, sans-serif; color: #ffffff" class="button_link">Confirmar Suscripcion<img src="https://gallery.mailchimp.com/fdcaf86ecc5056741eb5cbc18/images/582dc751-b0fc-4769-ad74-35932c7594dd.png" width="32" height="17" style="padding-top:5px" alt="" border="0"/></a></td>
                                                             </tr>
                                                          </table>
                                                       </td>
@@ -199,21 +199,20 @@ $mensaje = '
 </html>
 ';
 
-$mail->IsHTML(true);
-$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->IsHTML(true);                                  //
+$mail->isSMTP();                                      // Configurar mailer para que use SMTP
 $mail->Host = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'labrast7@gmail.com';                 // SMTP username
-$mail->Password = 'S_kh5Hgn';                           // SMTP password
-$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
-$mail->addCustomHeader('Content-type: text/html');
+$mail->SMTPAuth = true;                               // Habilitar autenticación SMTP
+$mail->Username = 'labrast7@gmail.com';               // SMTP username
+$mail->Password = 'S_kh5Hgn';                         // SMTP password
+$mail->SMTPSecure = 'ssl';                            // Habilitar SSL encryption
+$mail->Port = 465;                                    // Puerto TCP al que nos conectaremos
 
 
 $mail->setFrom('labrast7@gmail.com', 'DiscoveryMusic');
 $mail->addAddress($correo, $nombre);
 
-$mail->Subject = 'Confirmación registro DiscoveryMusic';
+$mail->Subject = 'Confirmacion registro DiscoveryMusic';
 $mail->Body    = $mensaje;
 
 if(!$mail->send()) {
