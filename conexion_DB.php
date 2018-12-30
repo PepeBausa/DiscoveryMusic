@@ -1,5 +1,5 @@
 <?php
-$host_db = "localhost";
+$host_db = "musicdiscovery.ddns.net";
 $user_db = "root";
 $pass_db = "";
 $db_name = "DiscoveryMusic";
