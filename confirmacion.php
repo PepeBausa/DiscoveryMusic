@@ -5,5 +5,5 @@
   $query="UPDATE $tbl_name SET status='Offline' WHERE username ='$username'";
   $run = mysqli_query($conexion, $query);
   mysqli_close($conexion);
-  header('Location: http://musicdiscovery.ddns.net/aviso_successful.php');
+  header('Location: http://discoverymusic.ddns.net/aviso_successful.php');
 ?>

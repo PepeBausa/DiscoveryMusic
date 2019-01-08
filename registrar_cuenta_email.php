@@ -29,7 +29,7 @@ $mensaje = '
       <!--<![endif]-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title></title>
-      <link rel="stylesheet" href="http://musicdiscovery.ddns.net/css/estilo_correo.css">
+      <link rel="stylesheet" href="http://discoverymusic.ddns.net/css/estilo_correo.css">
    </head>
    <body style="Margin:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;min-width:100%;background-color:#f3f2f0;">
       <center class="wrapper" style="width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;background-color:#f3f2f0;">
@@ -61,7 +61,7 @@ $mensaje = '
                                                                                  <div class="column" style="width:100%;max-width:80px;display:inline-block;vertical-align:top;">
                                                                                     <table class="contents" style="border-spacing:0; width:100%"  >
                                                                                        <tr>
-                                                                                          <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:5px;" align="left"><a href="#" target="_blank"><img src="http://musicdiscovery.ddns.net/resources/icon.png" alt="" width="60" height="60" style="border-width:0; max-width:60px;height:auto; display:block" align="left"/></a></td>
+                                                                                          <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:5px;" align="left"><a href="#" target="_blank"><img src="http://discoverymusic.ddns.net/resources/icon.png" alt="" width="60" height="60" style="border-width:0; max-width:60px;height:auto; display:block" align="left"/></a></td>
                                                                                        </tr>
                                                                                     </table>
                                                                                  </div>
@@ -121,7 +121,7 @@ $mensaje = '
                                                       <td align="center">
                                                          <table border="0" cellpadding="0" cellspacing="0" style="Margin:0 auto;">
                                                             <tr>
-                                                               <td width="250" height="60" align="center" bgcolor="#1f3ca6" style="-moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;"><a href="http://musicdiscovery.ddns.net/confirmacion.php'.$urlinfo.'" style="width:250; display:block; text-decoration:none; border:0; text-align:center; font-weight:bold;font-size:18px; font-family: Arial, sans-serif; color: #ffffff" class="button_link">Confirmar Suscripcion<img src="https://gallery.mailchimp.com/fdcaf86ecc5056741eb5cbc18/images/582dc751-b0fc-4769-ad74-35932c7594dd.png" width="32" height="17" style="padding-top:5px" alt="" border="0"/></a></td>
+                                                               <td width="250" height="60" align="center" bgcolor="#1f3ca6" style="-moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;"><a href="http://discoverymusic.ddns.net/confirmacion.php'.$urlinfo.'" style="width:250; display:block; text-decoration:none; border:0; text-align:center; font-weight:bold;font-size:18px; font-family: Arial, sans-serif; color: #ffffff" class="button_link">Confirmar Suscripcion<img src="https://gallery.mailchimp.com/fdcaf86ecc5056741eb5cbc18/images/582dc751-b0fc-4769-ad74-35932c7594dd.png" width="32" height="17" style="padding-top:5px" alt="" border="0"/></a></td>
                                                             </tr>
                                                          </table>
                                                       </td>
@@ -150,7 +150,7 @@ $mensaje = '
                                              <div class="column" style="width:100%;max-width:350px;display:inline-block;vertical-align:top;">
                                                 <table class="contents" style="border-spacing:0; width:100%">
                                                    <tr>
-                                                      <td width="39%" align="right" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"><a href="#" target="_blank"><img src="http://musicdiscovery.ddns.net/resources/icon.png" alt="" width="59" height="59" style="border-width:0; max-width:59px;height:auto; display:block; padding-right:20px" /></a></td>
+                                                      <td width="39%" align="right" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"><a href="#" target="_blank"><img src="http://discoverymusic.ddns.net/resources/icon.png" alt="" width="59" height="59" style="border-width:0; max-width:59px;height:auto; display:block; padding-right:20px" /></a></td>
                                                       <td width="61%" align="left" valign="middle" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
                                                          <p style="color:#787777; font-size:13px; text-align:left; font-family: Verdana, Geneva, sans-serif"> DiscoveryMusic &copy; 2018<br />
                                                             Palma de Mallorca<br />
@@ -221,6 +221,6 @@ if(!$mail->send()) {
 } else {
     echo 'El mensaje se ha enviado correctamente';
     mysqli_close($conexion);
-    header('Location: http://musicdiscovery.ddns.net/aviso_correo.php');
+    header('Location: http://discoverymusic.ddns.net/aviso_correo.php');
 }
 ?>
