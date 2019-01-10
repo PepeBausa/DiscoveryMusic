@@ -44,6 +44,17 @@
   width: 100%;
   background: linear-gradient(to right, #578ead, #34576b);
 }
+#Cuerpo1{
+  position: fixed;
+  overflow-y: scroll;
+  top: inherit;
+  bottom: inherit;
+  right: inherit;
+  left: inherit;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #578ead, #34576b);
+}
 #mostrar_videos{
   position: relative;
   display: flex ;

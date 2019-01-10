@@ -76,6 +76,9 @@
       <div class="col-5 offset-2" id="Cuerpo">
         <div class="row" id= "mostrar_videos"></div>
       </div>
+      <div class="col-5" id="Cuerpo1">
+        <div class="row" id= "mostrar_videos"></div>
+      </div>
     </div>
   </body>
 </html>
