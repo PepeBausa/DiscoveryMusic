@@ -25,7 +25,7 @@
                   var html = '';
                   for (var i = 0; i < respuesta.length; i++) {
                       if (respuesta[i] != undefined) {
-                          html += '<div class="col-4"><video id="video" controls><source src="'+respuesta[i]["archivo"]+'" type="video/mp4" allow/><source src="'+respuesta[i]["archivo"]+'" type="video/avi" allow/></video><p style="">Titulo: '+respuesta[i]["titulo"]+'<br/> Artista: '+respuesta[i]["artista"]+'</p><hr/></div>';
+                          html += '<div class="col-4"><video id="video" controls><source src="'+respuesta[i]["archivo"]+'" type="video/mp4" allow/><source src="'+respuesta[i]["archivo"]+'" type="video/avi" allow/></video><p style="text-align:center">Titulo: '+respuesta[i]["titulo"]+'<br/> Artista: '+respuesta[i]["artista"]+'</p><hr/></div>';
                       }
                   }
                   $("#mostrar_videos").html(html);
