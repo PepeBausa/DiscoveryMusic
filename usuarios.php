@@ -56,12 +56,6 @@
       <div class="col-10 offset-2" id="Cuerpo">
         <div class="row" id= "mostrar_usuarios"></div>
       </div>
-      <div id="search">
-        <form>
-          <input type="search" value="" placeholder="SEARCH" />
-          <button type="submit" class="btn">Search</button>
-        </form>
-      </div>
     </div>
   </body>
 </html>

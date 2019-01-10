@@ -63,12 +63,6 @@
       <div class="col-10 offset-2" id="Cuerpo">
         <div class="row" id= "mostrar_videos"></div>
       </div>
-      <div id="search">
-        <form id="submit" action="/action_page.php" method="get" id="nameform">
-          <input type="search" value="" id="busqueda" placeholder="SEARCH" />
-          <button  type="submit" form="nameform" class="btn">Search</button>
-        </form>
-      </div>
     </div>
   </body>
 </html>

@@ -48,12 +48,6 @@
           </div>
         </div>
       </div>
-        <div id="search">
-          <form>
-            <input type="search" value="" placeholder="SEARCH" />
-            <button type="submit" class="btn">Search</button>
-          </form>
-        </div>
     </div>
   </body>
 </html>
