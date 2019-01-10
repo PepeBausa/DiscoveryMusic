@@ -19,7 +19,7 @@
 
   function mostrarVideos() {
       $.ajax({
-          url: 'mostrar_videos_usuario.php',
+          url: 'mostrar_videos_Usuario.php',
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
