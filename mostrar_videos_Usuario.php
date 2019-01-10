@@ -10,6 +10,6 @@ $row =$run->fetch_assoc()
 //for ($i=0; $i < ($row[$i] =$run->fetch_assoc()); $i++) {
 //print_r($row[$i][archivo]);
 //}
-echo "$row";
+echo $row;
 //echo json_encode($row, JSON_UNESCAPED_SLASHES);
 ?>
