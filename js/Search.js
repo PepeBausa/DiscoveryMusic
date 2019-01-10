@@ -5,7 +5,7 @@ $(function() {
     $('#search > form > input[type="search"]').focus();
   });
 
-  $("#search").on("click keyup", function(event) {
+  $("#search, #search button.close").on("click keyup", function(event) {
     if (
       event.target == this ||
       event.target.className == "close" ||
@@ -13,5 +13,10 @@ $(function() {
     ) {
       $(this).removeClass("open");
     }
+  });
+
+  $("form").submit(function(event) {
+    event.preventDefault();
+    return false;
   });
 });
