@@ -62,9 +62,9 @@
         <div class="row" id= "mostrar_videos"></div>
       </div>
       <div id="search">
-        <form id="submit" action="" method="post" accept-charset="utf-8" class="form" role="form">
+        <form id="submit" action="busqueda.php" method="post" accept-charset="utf-8" class="form" role="form">
           <input type="search" value="" id="busqueda" placeholder="SEARCH" />
-          <button  onclick= "cambiar()" type="submit" class="btn">Search</button>
+          <button  type="submit" class="btn">Search</button>
         </form>
       </div>
     </div>
