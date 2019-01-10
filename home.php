@@ -42,7 +42,6 @@
     });
   });
   function cambiar() {
-  ruta = '';
   var valor = document.getElementById('busqueda').value;
   var path = "busqueda.php?busqueda="+valor
   document.getElementById('submit').action = path;
@@ -65,7 +64,7 @@
       <div id="search">
         <form id="submit" action="" method="post" accept-charset="utf-8" class="form" role="form">
           <input type="search" value="" id="busqueda" placeholder="SEARCH" />
-          <button  onclick= "cambiar(); return false" type="submit" class="btn">Search</button>
+          <button  onclick= "cambiar()" type="submit" class="btn">Search</button>
         </form>
       </div>
     </div>
