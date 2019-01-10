@@ -41,6 +41,12 @@
         return false;
     });
   });
+  function cambiar() {
+  ruta = '';
+  var valor = document.getElementById('busqueda').value;
+  var path = "busqueda.php?busqueda="+valor
+  document.getElementById('submit').href = path; 
+}
   $(document).ready(function() {
       mostrarVideos();
   });
@@ -57,10 +63,8 @@
         <div class="row" id= "mostrar_videos"></div>
       </div>
       <div id="search">
-        <form>
-          <input type="search" value="" placeholder="SEARCH" />
-          <button type="submit" class="btn">Search</button>
-        </form>
+          <input type="search" value="" id="busqueda" placeholder="SEARCH" />
+          <a href="#" onclick= "cambiar(); return false" id="submit"><button type="submit" class="btn">Search</button></a>
       </div>
     </div>
   </body>
