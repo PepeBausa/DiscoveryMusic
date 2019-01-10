@@ -16,17 +16,10 @@
   <script src="js/bootstrap.min.js"></script>
   <script  src="js/Search.js"></script>
   <script type="text/javascript">
-  function getUrlVars() {
-    var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-        vars[key] = value;
-    });
-    return vars;
-  }
-  var user = getUrlVars()["username"];
+
   function mostrarVideos() {
       $.ajax({
-          url: 'https://discoverymusic.ddns.net/mostrar_videos_usuario.php?username='+user+,
+          url: 'https://discoverymusic.ddns.net/mostrar_videos_usuario.php?username='+ console.log(urlParams.get('username'));,
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
