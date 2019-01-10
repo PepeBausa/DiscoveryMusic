@@ -20,7 +20,7 @@
   function mostrarVideos() {
       $.ajax({
           var urlParams = new URLSearchParams(window.location.search);
-          url: 'mostrar_videos_Usuario.php?username='+ console.log(urlParams.get('action')),
+          url: 'mostrar_videos',
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
