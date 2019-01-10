@@ -18,7 +18,7 @@
   <script type="text/javascript">
   function mostrarVideos() {
       $.ajax({
-          url: 'mostrar_videos_usuario.php?username=<?php echo $_GET['username']?>',
+          url: 'mostrar_videos_usuario.php?username='+<?php echo $_GET['username']?>,
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
