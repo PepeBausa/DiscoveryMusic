@@ -6,7 +6,6 @@
   <link rel="shortcut icon" href="resources/icon.png" />
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/usuarios.css">
-  <link rel="stylesheet" href="css/search.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
