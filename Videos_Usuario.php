@@ -23,17 +23,10 @@
     });
     return vars;
   }
-  function getUrlParam(parameter, defaultvalue){
-    var urlparameter = defaultvalue;
-    if(window.location.href.indexOf(parameter) > -1){
-        urlparameter = getUrlVars()[parameter];
-        }
-    return urlparameter;
-  }
-  var Username = getUrlParam('username','Empty');
+  var user = getUrlVars()["username"];
   function mostrarVideos() {
       $.ajax({
-          url: 'mostrar_videos_usuario.php?username='+Username,
+          url: 'https://discoverymusic.ddns.net/mostrar_videos_usuario.php?username='+user+,
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
