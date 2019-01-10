@@ -5,7 +5,7 @@
   <title>Home</title>
   <link rel="shortcut icon" href="resources/icon.png" />
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/usuarios.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -25,7 +25,7 @@
                   var html = '';
                   for (var i = 0; i < respuesta.length; i++) {
                       if (respuesta[i] != undefined) {
-                          html += '<div class="row"><img id="ImgCuenta" src="'+respuesta[i]["image"]+'" class="img-circle" alt="Logo"><hr/><p style="text-align:center">Artista: '+respuesta[i]["username"]+'</p></div>';
+                          html += '<div class="row"><div class="col-12" id="user"><img id="ImgCuenta" src="'+respuesta[i]["image"]+'" class="img-circle" alt="Logo"><hr/><p style="text-align:center">Artista: '+respuesta[i]["username"]+'</p></div></div>';
                       }
                   }
                   $("#mostrar_usuarios").html(html);

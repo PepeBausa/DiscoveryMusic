@@ -1,0 +1,96 @@
+#Contenido{
+  position:fixed;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+}
+#LogoTag{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+#Navbar{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: #34576b;
+}
+#UserTag{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+#Cuerpo{
+  position: fixed;
+  overflow-y: scroll;
+  top: inherit;
+  bottom: inherit;
+  right: inherit;
+  left: inherit;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #578ead, #34576b);
+}
+#mostrar_usuarios{
+  position: relative;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  margin: 1%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  right: 0% ;
+}
+#Derecha{
+  float: right;
+  display: flex;
+}
+#Izquierda{
+  float: left;
+  display: flex;
+}
+#Centrar{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+#ButtonAside{
+  width:150px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  background-color: #9e6a4d;
+  border-color: #9e6a4d;
+}
+#ImgLogo{
+  padding: 5%;
+  border-radius:40px;
+  width:80px;
+  height:80px;
+}
+#ImgUser{
+  margin: auto;
+  padding: 10px;
+  border-radius:30px;
+  width:60px;
+  height:60px;
+}
+#video{
+  width: 360px;
+  height: 180px;
+  padding: auto;
+}
