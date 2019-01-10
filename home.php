@@ -42,11 +42,6 @@
     });
   });
 
-  function cambiar() {
-  var valor = document.getElementById('busqueda').value;
-  var path = "busqueda.php?busqueda="+valor
-  document.getElementById('submit').action = path;
-  }
   $(document).ready(function() {
       mostrarVideos();
   });

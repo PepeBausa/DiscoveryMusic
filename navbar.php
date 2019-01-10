@@ -2,6 +2,15 @@
     $x=$_COOKIE["UserCookie"];
     $infouser = explode(",", $x);
 ?>
+<script type="text/javascript">
+function cambiar() {
+var valor = document.getElementById('input').value;
+var path = "busqueda.php?busqueda="+valor
+document.getElementById('submit').action = path;
+document.formulario.submit();
+}
+</script>
+
 <div class="col-2" id="Navbar">
   <div class="row" id="Centrar">
     <a href="home.php"><img id="ImgLogo" src="resources/icon.png" class="img-circle" alt="Logo"></a>
@@ -10,9 +19,9 @@
   <hr/>
   <ul class="nav flex-column">
     <li class="nav-item">
-			<form class="flexsearch--form" action="#" method="post">
-					<input class="flexsearch--input" type="search" placeholder="search">
-				<input class="flexsearch--submit" type="submit" value="&#10140;"/>
+			<form id="submit" name="formulario" class="form" action="" method="post">
+					<input id="input" class="input" type="search" value="" placeholder="search">
+		      <input type="button" onclick="cambiar()"/>
 			</form>
     </li>
     <li class="nav-item">
