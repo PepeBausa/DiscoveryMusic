@@ -21,7 +21,7 @@ document.formulario.submit();
     <li class="nav-item">
 			<form id="submit" name="formulario" class="form" action="" method="post">
 					<input id="input" class="input" type="search" value="" placeholder="search">
-		      <input type="button" onclick="cambiar()"/>
+		      <input type="button" value="&#10140;" onclick="cambiar()"/>
 			</form>
     </li>
     <li class="nav-item">
