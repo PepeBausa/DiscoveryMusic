@@ -25,7 +25,7 @@
                   var html = '';
                   for (var i = 0; i < respuesta.length; i++) {
                       if (respuesta[i] != undefined) {
-                          html += '<div class="row"><div class="col-12" id="user"><a href="Videos_Usuario.php?username='+respuesta[i]["username"]+'"><img id="ImgCuenta" src="'+respuesta[i]["image"]+'" class="img-circle" alt="Logo"><hr/><p style="text-align:center">Artista: '+respuesta[i]["username"]+'</p></a></div></div>';
+                          html += '<div class="row"><div class="col-12" id="user"><a href="Videos_Usuario.php"><img id="ImgCuenta" src="'+respuesta[i]["image"]+'" class="img-circle" alt="Logo"><hr/><p style="text-align:center">Artista: '+respuesta[i]["username"]+'</p></a></div></div>';
                       }
                   }
                   $("#mostrar_usuarios").html(html);
