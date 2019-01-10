@@ -41,14 +41,16 @@
         return false;
     });
   });
+
   function cambiar() {
   var valor = document.getElementById('busqueda').value;
   var path = "busqueda.php?busqueda="+valor
   document.getElementById('submit').action = path;
-}
+  }
   $(document).ready(function() {
       mostrarVideos();
   });
+
 </script>
 </head>
   <body onbeforeunload="return CloseWindow()">
@@ -62,9 +64,9 @@
         <div class="row" id= "mostrar_videos"></div>
       </div>
       <div id="search">
-        <form id="submit" action="busqueda.php" method="post" accept-charset="utf-8" class="form" role="form">
+        <form id="submit" action="/action_page.php" method="get" id="nameform">
           <input type="search" value="" id="busqueda" placeholder="SEARCH" />
-          <button  type="submit" class="btn">Search</button>
+          <button  type="submit" form="nameform" class="btn">Search</button>
         </form>
       </div>
     </div>
