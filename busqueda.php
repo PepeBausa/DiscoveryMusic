@@ -73,7 +73,7 @@
         $x = $_COOKIE["UserCookie"];
         $infouser = explode(",", $x);
         ?>
-      <div class="col-10 offset-2" id="Cuerpo">
+      <div class="col-5 offset-2" id="Cuerpo">
         <div class="row" id= "mostrar_videos"></div>
       </div>
     </div>
