@@ -2,15 +2,6 @@
     $x=$_COOKIE["UserCookie"];
     $infouser = explode(",", $x);
 ?>
-<script type="text/javascript">
-function cambiar() {
-var valor = document.getElementById('input').value;
-var path = "busqueda.php?busqueda="+valor
-document.getElementById('submit').action = path;
-document.formulario.submit();
-}
-</script>
-
 <div class="col-2" id="Navbar">
   <div class="row" id="Centrar">
     <a href="home.php"><img id="ImgLogo" src="resources/icon.png" class="img-circle" alt="Logo"></a>
