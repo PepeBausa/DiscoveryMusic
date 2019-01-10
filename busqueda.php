@@ -35,7 +35,7 @@
   }
   function mostrarUsuarios() {
       $.ajax({
-          url: 'mostrar_usuarios_busqueda.php?busqueda=<?php echo $_GET['busqueda'] ?>',
+          url: 'mostrar_usuarios_busqueda.php?busqueda=precious',
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
