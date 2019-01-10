@@ -45,7 +45,7 @@
   ruta = '';
   var valor = document.getElementById('busqueda').value;
   var path = "busqueda.php?busqueda="+valor
-  document.getElementById('submit').href = path; 
+  document.getElementById('submit').href = path;
 }
   $(document).ready(function() {
       mostrarVideos();
@@ -64,7 +64,7 @@
       </div>
       <div id="search">
           <input type="search" value="" id="busqueda" placeholder="SEARCH" />
-          <a href="#" onclick= "cambiar(); return false" id="submit"><button type="submit" class="btn">Search</button></a>
+          <a href="#" id="submit"><button  onclick= "cambiar(); return false" type="submit" class="btn">Search</button></a>
       </div>
     </div>
   </body>
