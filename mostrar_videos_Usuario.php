@@ -6,7 +6,7 @@ $username = $_GET['username'];
 $query = "SELECT * FROM $tbl_name WHERE artista=$username";
 $row  = array();
 $run = mysqli_query($conexion, $query);
-$row =$run->fetch_assoc()
+$row =$run->fetch_assoc();
 //for ($i=0; $i < ($row[$i] =$run->fetch_assoc()); $i++) {
 //print_r($row[$i][archivo]);
 //}
