@@ -115,7 +115,7 @@
               <label for="titulo">Titulo:</label>
               <input type="text" class="form-control" placeholder="" id="titulo">
               <label for="artista">Artista:</label>
-              <input type="text" class="form-control" placeholder="<?php echo $infouser[1]?>" value="<?php echo $infouser[1]?>" id="artista">
+              <input type="text" class="form-control" placeholder="<?php echo $infouser[1]?>" value="<?php echo $infouser[1]?>" id="artista" readonly>
               <label for="genero">Genero:</label>
               <input type="text" class="form-control" placeholder="" id="genero">
               <label for="instrumento">Instrumento:</label>
