@@ -19,7 +19,8 @@
 
   function mostrarVideos() {
       $.ajax({
-          url: 'https://discoverymusic.ddns.net/mostrar_videos_usuario.php?username=pepitobausa',
+          var urlParams = new URLSearchParams(window.location.search);
+          url: 'https://discoverymusic.ddns.net/mostrar_videos_usuario.php?username=console.log'+(urlParams.get('action')),
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
