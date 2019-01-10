@@ -16,7 +16,7 @@
       <a class="nav-link" href="home.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="recientes.php">Recientes</a>
+      <a class="nav-link" href="usuarios.php">Usuarios</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="seguidos.php">Seguidos</a>
