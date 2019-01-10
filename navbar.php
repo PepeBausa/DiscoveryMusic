@@ -10,7 +10,16 @@
   <hr/>
   <ul class="nav flex-column">
     <li class="nav-item">
-      <a class="nav-link" href="#search">Search</a>
+      <div class="flexsearch">
+      		<div class="flexsearch--wrapper">
+      			<form class="flexsearch--form" action="#" method="post">
+      				<div class="flexsearch--input-wrapper">
+      					<input class="flexsearch--input" type="search" placeholder="search">
+      				</div>
+      				<input class="flexsearch--submit" type="submit" value="&#10140;"/>
+      			</form>
+      		</div>
+      </div>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="home.php">Home</a>
