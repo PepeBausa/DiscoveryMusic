@@ -2,7 +2,7 @@
 <?php session_start(); ?>
 <html>
 <head>
-  <title>Home</title>
+  <title>Busqueda</title>
   <link rel="shortcut icon" href="resources/icon.png" />
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/home.css">
@@ -73,10 +73,10 @@
         $x = $_COOKIE["UserCookie"];
         $infouser = explode(",", $x);
         ?>
-      <div class="col-10 offset-2" id="Cuerpo">
+      <div class="col-8 offset-2" id="Cuerpo">
         <div class="row" id= "mostrar_videos"></div>
       </div>
-      <div class="col-5" id="Cuerpo">
+      <div class="col-2" id="Cuerpo">
         <div class="row" id= "mostrar_artistas"></div>
       </div>
     </div>
