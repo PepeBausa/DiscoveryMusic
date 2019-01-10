@@ -25,7 +25,7 @@
                   var html = '';
                   for (var i = 0; i < respuesta.length; i++) {
                       if (respuesta[i] != undefined) {
-                          html += '<div class="row"><div class="col-12" id="user"><a href="http://DiscoveryMusic.ddns.net/mostrar_videos_usuario.php?username='+respuesta[i]["username"]+'"><img id="ImgCuenta" src="'+respuesta[i]["image"]+'" class="img-circle" alt="Logo"><hr/><p style="text-align:center"></a>Artista: '+respuesta[i]["username"]+'</p></div></div>';
+                          html += '<div class="row"><div class="col-12" id="user"><a href="http://DiscoveryMusic.ddns.net/Videos_Usuario.php?username='+respuesta[i]["username"]+'"><img id="ImgCuenta" src="'+respuesta[i]["image"]+'" class="img-circle" alt="Logo"><hr/><p style="text-align:center"></a>Artista: '+respuesta[i]["username"]+'</p></div></div>';
                       }
                   }
                   $("#mostrar_usuarios").html(html);
