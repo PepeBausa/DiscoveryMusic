@@ -18,12 +18,6 @@
     <li class="nav-item">
       <a class="nav-link" href="usuarios.php">Usuarios</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="seguidos.php">Seguidos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="like.php">Likes</a>
-    </li>
   </ul>
 </div>
 <div class="col-2" id="UserTag">
