@@ -16,9 +16,17 @@
   <script src="js/bootstrap.min.js"></script>
   <script  src="js/Search.js"></script>
   <script type="text/javascript">
+  function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+  }
+  var Username = getUrlParam('username','Empty');
   function mostrarVideos() {
       $.ajax({
-          url: 'mostrar_videos_usuario.php?username='+<?php echo $_GET['username']?>,
+          url: 'mostrar_videos_usuario.php?username='+Username,
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
