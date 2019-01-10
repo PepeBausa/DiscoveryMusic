@@ -42,6 +42,13 @@
         return false;
     });
   });
+
+  function cambiar() {
+  var valor = document.getElementById('input').value;
+  var path = "busqueda.php?busqueda="+valor
+  document.getElementById('submit').action = path;
+  document.formulario.submit();
+};
   $(document).ready(function() {
       mostrarVideos();
   });

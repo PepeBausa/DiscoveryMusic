@@ -59,7 +59,7 @@
                   }
               }
           });
-      }
+      };
       function obtenerInfo(){
         var titulo = document.getElementById("titulo").value;
         var artista = document.getElementById("artista").value;
@@ -67,7 +67,7 @@
         var instrumento = document.getElementById("instrumento").value;
         var r = titulo+","+artista+","+genero+","+instrumento+",";
         return r
-      }
+      };
       function mostrarRespuesta(mensaje, ok){
           $("#respuesta").removeClass('alert-success').removeClass('alert-danger').html(mensaje);
           if(ok){
@@ -75,7 +75,14 @@
           }else{
               $("#respuesta").addClass('alert-danger');
           }
-      }
+      };
+
+      function cambiar() {
+      var valor = document.getElementById('input').value;
+      var path = "busqueda.php?busqueda="+valor
+      document.getElementById('submit').action = path;
+      document.formulario.submit();
+    };
       $(document).ready(function() {
           $("#boton_subir").on('click', function() {
               subirArchivos();

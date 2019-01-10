@@ -61,7 +61,14 @@
           }else{
               $("#respuesta").addClass('alert-danger');
           }
-      }
+      };
+
+      function cambiar() {
+      var valor = document.getElementById('input').value;
+      var path = "busqueda.php?busqueda="+valor
+      document.getElementById('submit').action = path;
+      document.formulario.submit();
+    };
       $(document).ready(function() {
           mostrarArchivos();
           $("#archivos_subidos").on('click', '.eliminar_archivo', function() {
