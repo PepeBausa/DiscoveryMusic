@@ -18,7 +18,7 @@
   <script type="text/javascript">
   function mostrarVideos() {
       $.ajax({
-          url: 'mostrar_videos_busqueda.php',
+          url: 'mostrar_videos_busqueda.php?busqueda=<?php echo $_GET['busqueda'] ?>',
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
@@ -35,7 +35,7 @@
   }
   function mostrarUsuarios() {
       $.ajax({
-          url: 'mostrar_usuarios_busqueda.php',
+          url: 'mostrar_usuarios_busqueda.php?busqueda=<?php echo $_GET['busqueda'] ?>',
           dataType: 'JSON',
           success: function(respuesta) {
               if (respuesta) {
