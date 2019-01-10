@@ -90,6 +90,9 @@
   height:60px;
 }
 #video{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
   width: 360px;
   height: 180px;
   padding: auto;
