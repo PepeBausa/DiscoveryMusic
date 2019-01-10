@@ -3,8 +3,8 @@ session_start();
 require 'conexion_DB.php';
 $tbl_name = "videos";
 $username = $_GET['username'];
-echo "$username";
 $query = "SELECT * FROM $tbl_name WHERE artista= $username";
+echo "$query";
 $row  = array();
 $run = mysqli_query($conexion, $query);
 for ($i=0; $i < ($row[$i] =$run->fetch_assoc()); $i++) {
