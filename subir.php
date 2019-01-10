@@ -54,7 +54,7 @@
                     mostrarRespuesta('Error al Registrar el archivo: '+respuesta+' en BD.', false);
                   } else {
                     mostrarRespuesta('Archivo: '+respuesta+' subido correctamente', true);
-                    $("#archivo, #titulo, #artista, #genero, #instrumento").val('');
+                    $("#archivo, #titulo").val('');
 
                   }
               }
