@@ -118,13 +118,22 @@
               <input type="text" class="form-control" placeholder="<?php echo $infouser[1]?>" value="<?php echo $infouser[1]?>" id="artista" readonly>
               <label for="genero">Genero:</label>
               <select class="form-control" id="genero">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
+                <option>Pop</option>
+                <option>Rap</option>
+                <option>Clasica</option>
+                <option>Instrumental</option>
+                <option>Jazz</option>
+                <option>Blues</option>
               </select>
               <label for="instrumento">Instrumento:</label>
-              <input type="text" class="form-control" placeholder="" id="instrumento">
+              <select class="form-control" id="instrumento">
+                <option>Piano</option>
+                <option>Guitarra</option>
+                <option>Bateria</option>
+                <option>Saxo</option>
+                <option>Voz</option>
+                <option>Violin</option>
+              </select>
             </div>
           </div>
           <hr />
